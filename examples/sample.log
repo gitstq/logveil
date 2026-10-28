@@ -1,0 +1,5 @@
+2026-10-28 09:12:04 INFO  login ok user=alice@example.com ip=203.0.113.42 path=/Users/alice/app/config.yaml
+2026-10-28 09:12:05 ERROR charge failed card=4111 1111 1111 1111 phone=13812345678 order=4111111111111112
+2026-10-28 09:12:06 DEBUG Authorization: Bearer abcdefgh12345678 api_key=supersecretvalue123
+2026-10-28 09:12:07 INFO  retry login user=alice@example.com ip=203.0.113.42 mac=00:1B:44:11:3A:B7
+2026-10-28 09:12:08 WARN  version 999.1.2.3 is not an ip, build 202610280912 is not a card

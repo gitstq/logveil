@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+# Mapping files contain the ORIGINAL sensitive values. Never commit them.
+*mapping*.json
+*.veilmap.json
+.idea/
+.vscode/
+.DS_Store

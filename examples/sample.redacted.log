@@ -1,0 +1,5 @@
+2026-10-28 09:12:04 INFO  login ok user=[EMAIL_1] ip=[IP_1] path=/Users/[USER_PATH_1]/app/config.yaml
+2026-10-28 09:12:05 ERROR charge failed card=[BANK_CARD_1] phone=[PHONE_1] order=4111111111111112
+2026-10-28 09:12:06 DEBUG Authorization: Bearer [TOKEN_1] api_key=[SECRET_1]
+2026-10-28 09:12:07 INFO  retry login user=[EMAIL_1] ip=[IP_1] mac=[MAC_1]
+2026-10-28 09:12:08 WARN  version 999.1.2.3 is not an ip, build 202610280912 is not a card

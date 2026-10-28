@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logveil"
+version = "1.0.0"
+description = "Redact logs and traces for safe sharing, with consistent, reversible placeholders. Zero dependencies."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "gitstq" }]
+keywords = ["log", "redaction", "pii", "privacy", "security", "cli"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+  "Topic :: System :: Logging",
+]
+
+[project.scripts]
+logveil = "logveil.cli:main"
+
+[tool.setuptools]
+packages = ["logveil"]

@@ -1,0 +1,2 @@
+# LogVeil has no runtime dependencies.
+# It runs on the Python 3.10+ standard library alone.
